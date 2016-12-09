@@ -1,6 +1,6 @@
 # git_tags plugin
 
-[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-git_tags)
+[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-git_tags)[![CircleCI](https://circleci.com/gh/fsaragoca/fastlane-plugin-git_tags.svg?style=svg)](https://circleci.com/gh/fsaragoca/fastlane-plugin-git_tags)
 
 ## Getting Started
 
@@ -12,15 +12,16 @@ fastlane add_plugin git_tags
 
 ## About git_tags
 
-List git tags
-
-**Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
+List git tags sorted by `taggerdate`
 
 ## Example
 
-Check out the [example `Fastfile`](fastlane/Fastfile) to see how to use this plugin. Try it by cloning the repo, running `fastlane install_plugins` and `bundle exec fastlane test`.
+```
+git_tags # Returns an array of tags sorted by creation date
+git_tags(limit: 2) # Returns two most recent tags
+```
 
-**Note to author:** Please set up a sample project to make it easy for users to explore what your plugin does. Provide everything that is necessary to try out the plugin in this project (including a sample Xcode/Android project if necessary)
+Check out the [example `Fastfile`](fastlane/Fastfile) to see how to use this plugin. Try it by cloning the repo, running `fastlane install_plugins` and `bundle exec fastlane test`.
 
 ## Run tests for this plugin
 
