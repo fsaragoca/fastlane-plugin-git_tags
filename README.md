@@ -1,6 +1,9 @@
 # git_tags plugin
 
-[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-git_tags)[![CircleCI](https://circleci.com/gh/fsaragoca/fastlane-plugin-git_tags.svg?style=svg)](https://circleci.com/gh/fsaragoca/fastlane-plugin-git_tags)
+[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-git_tags)
+[![Twitter: @fsaragoca](https://img.shields.io/badge/contact-@fsaragoca-blue.svg?style=flat)](https://twitter.com/fsaragoca)
+
+[![CircleCI](https://circleci.com/gh/fsaragoca/fastlane-plugin-git_tags.svg?style=svg)](https://circleci.com/gh/fsaragoca/fastlane-plugin-git_tags)
 
 ## Getting Started
 
