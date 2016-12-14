@@ -2,7 +2,7 @@ module Fastlane
   module Actions
     class GitTagsAction < Action
       def self.run(params)
-        tags = Actions.sh("git tag --sort=taggerdate", log: $verbose).chomp.split("\n").reverse
+        tags = Actions.sh("git tag | xargs -I@ git log --format=format:\"%ai @%n\" -1 @ | sort | awk '{print $4}'", log: $verbose).chomp.split("\n").reverse
         tags = tags.take(params[:limit]) if params[:limit]
         tags
       end
