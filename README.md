@@ -15,7 +15,7 @@ fastlane add_plugin git_tags
 
 ## About git_tags
 
-List git tags sorted by `taggerdate`
+List git tags sorted by commit date.
 
 ## Example
 
